@@ -1,7 +1,7 @@
-const CatImage = require('../src/cats')
+const { CatImage } = require('../src/minusJS')
 
 async function b() {
-    let cat = new Cat()
+    let cat = new CatImage()
     cat.says = 'Im so sorry'
     cat.tag = 'big-eyes'
     cat.type = 'd'
