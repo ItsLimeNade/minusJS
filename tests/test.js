@@ -1,11 +1,11 @@
-const { CatImage, Leveling } = require('../src/minusJS')
+const { CatImage, Leveling, Warnings } = require('../src/minusJS')
 
 async function createCat() {
     let cat = new CatImage()
-    cat.tag = 'cute'
+    cat.tag = 'angry'
     cat.says = 'I am against Human Rights'
-    cat.gif = true
-    cat.type = "small"
+    cat.gif = false
+    cat.type = "large"
     console.log(await cat.getCat())
 }
 
@@ -15,3 +15,4 @@ async function createLeveling() {
     console.log(await leveling.getUserLevel(1, 1))
 }
 createLeveling()
+createCat()
