@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "type": "commonjs",
-  "main": "tests/index.js",
+  "main": "tests/test.js",
   "scripts": {
     "test": "node tests/test.js"
   },

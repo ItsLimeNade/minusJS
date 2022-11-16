@@ -135,8 +135,10 @@ class Leveling {
 // async function createLeveling() {
 //     let leveling = new Leveling(0, 100, 1, 1, 1, 1.2)
 //     await leveling.checkData(1, 1)
-    // await leveling.setXpRate(1, 1, 2)
-    // await leveling.clearDatabase()
-    // await leveling.deleteUserData(1, 1)
+// await leveling.setXpRate(1, 1, 2)
+// await leveling.clearDatabase()
+// await leveling.deleteUserData(1, 1)
 // }
 // createLeveling()
+
+module.exports = Leveling
