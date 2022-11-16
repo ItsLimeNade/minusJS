@@ -1,3 +1,4 @@
 const CatImage = require('./cats')
 const Leveling = require('./leveling')
-module.exports = { CatImage, Leveling } 
+const Warnings = require('./warnings')
+module.exports = { CatImage, Leveling, Warnings } 
