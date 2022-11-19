@@ -1,5 +1,5 @@
 const { QuickDB } = require('quick.db')
-let db = new QuickDB()
+let db = new QuickDB({ filePath: 'moderation.sqlite' })
 
 class Leveling {
 
